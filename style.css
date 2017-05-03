@@ -47,6 +47,10 @@ table {
 body{
   overflow-x: hidden; 
 }
+
+.center{
+  text-align: center;
+}
 nav ul{
   margin:2% 20% 0 0 !important;
 }
@@ -59,6 +63,15 @@ nav ul{
   float: right;
   color: #fff;
   display: inline-block;
+}
+.nav>li>a{
+  transition: all 200ms ease;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #f87600;
+    transition: all 200ms ease;
 }
 
 /* Paramètre de la navbar lorsque qu'elle n'est pas tout en haut du site*/
@@ -134,13 +147,44 @@ footer p{
 body{
   background: url('http://www.optionfitness.fr/img/picture5.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
 }
 
 .texte_presentation{
   text-align: center;
-  margin-top: 50vh;
-  margin-bottom: 5vh; 
+  margin-top: 40vh;
+  margin-bottom: 35vh; 
   font-size: 48px;
   color: #fff;
 }
+
+#objectifs {
+  background-color: #fff; 
+}
+
+#offres {
+  background-color: #aaa; 
+}
+
+#objectifs img, #offres img{
+  width: 100%;
+  height: auto;
+  margin: 0 0 10% 0;
+}
+
+#objectifs p{
+  font-size: 16px;
+  margin: 0 5% 15% 5%;
+  text-align: justify;
+}
+
+#objectifs h2, #offres h2{
+  color: #f87600;
+  font-size: 32px;
+  margin: 5% 0;
+}
+
+
 
