@@ -44,6 +44,9 @@ table {
 
 /* --------------- Fin du reset CSS -------------------*/
 
+body{
+  overflow-x: hidden; 
+}
 nav ul{
   margin:2% 20% 0 0 !important;
 }
@@ -60,7 +63,7 @@ nav ul{
 
 /* Paramètre de la navbar lorsque qu'elle n'est pas tout en haut du site*/
 .navbar-fixed-top.scrolled {
-  background-color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
   transition: all 500ms linear;
   opacity: 1 !important;
   height: 120px;
@@ -127,3 +130,17 @@ footer p{
     line-height: 1.3333333;
     border-radius: 6px;
 }
+
+body{
+  background: url('http://www.optionfitness.fr/img/picture5.jpg');
+  background-size: cover;
+}
+
+.texte_presentation{
+  text-align: center;
+  margin-top: 50vh;
+  margin-bottom: 5vh; 
+  font-size: 48px;
+  color: #fff;
+}
+

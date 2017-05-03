@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="wow fadeIn navbar-default footer wow FadeInDown">
+<footer class="navbar-default footer">
     <div class="footer-above background-footer-color">
         <div class="container">
             <div class="row">
