@@ -48,16 +48,22 @@ body{
   overflow-x: hidden; 
 }
 
+.navbar-header{
+  width: 100%;
+}
+
 .center{
   text-align: center;
 }
 nav ul{
-  margin:2% 20% 0 0 !important;
+  margin: 4% 10% 0 0 !important;
+  transition: all 300ms linear;
 }
 .nav-logo{
-  width: 10%;
+  width: 7%;
   height: auto;
-  margin: 0 0 0 5%;
+  margin: 2% 0 0 10%; 
+  transition: all 200ms linear;
 }
 .navbar-collapse li{
   float: right;
@@ -66,6 +72,7 @@ nav ul{
 }
 .nav>li>a{
   transition: all 200ms ease;
+  font-size: 20px;
 }
 .nav>li>a:hover {
     text-decoration: none;
@@ -76,12 +83,28 @@ nav ul{
 
 /* Paramètre de la navbar lorsque qu'elle n'est pas tout en haut du site*/
 .navbar-fixed-top.scrolled {
-  background-color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
   transition: all 500ms linear;
   opacity: 1 !important;
-  height: 120px;
+  height: 8%;
+  border-bottom: 2px solid orange;
+  }
+
+  .navbar-fixed-top.scrolled ul {
+      margin: 1% 10% 0 0 !important;
+      transition: all 300ms linear;
+  }
+
+  .navbar-fixed-top.scrolled a {
+     font-size: 16px;
   }
   
+ .navbar-fixed-top.scrolled .nav-logo{
+  width: 4%;
+  height: auto;
+  margin: 0% 0 0 10%; 
+  transition: all 300ms linear;
+}
 .navbar-fixed-top.scrolled a{
   color: #000;
 }
@@ -144,17 +167,23 @@ footer p{
     border-radius: 6px;
 }
 
-body{
+.mon-background{
   background: url('http://www.optionfitness.fr/img/picture5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -100;
+  filter: brightness(60%);
+
 }
 
 .texte_presentation{
   text-align: center;
-  margin-top: 40vh;
+  padding-top: 40vh;
   margin-bottom: 35vh; 
   font-size: 48px;
   color: #fff;
@@ -165,25 +194,75 @@ body{
 }
 
 #offres {
-  background-color: #aaa; 
+  background-color: orange; 
 }
 
-#objectifs img, #offres img{
+#offres img{
   width: 100%;
   height: auto;
   margin: 0 0 10% 0;
 }
 
-#objectifs p{
-  font-size: 16px;
-  margin: 0 5% 15% 5%;
-  text-align: justify;
-}
-
-#objectifs h2, #offres h2{
-  color: #f87600;
+#objectifs h2{
+  color: orange;
   font-size: 32px;
   margin: 5% 0;
+}
+
+ #offres h2{
+  color: #fff;
+  font-size: 32px;
+  margin: 5% 0;
+}
+
+.photo_objectif {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  display:none;
+  float:left;
+  overflow:hidden;
+  width: 100%;
+  display: block;
+  margin:10% auto;
+  position: relative;
+}
+
+.photo_objectif img {
+    width:100%;
+    height: 100%;
+    position: relative;
+    top:0;  
+  }
+
+.photo_objectif .overlay {
+  position: absolute;
+  left: 0%;
+  top:0px;
+  width: 0%;
+  height: 99%;
+  background-color: rgba(19, 19, 19, 0.6);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease;
+  visibility:hidden;
+  overflow:hidden;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: central;
+  padding: 0;
+  margin: 0;
+  line-height: 375px;                
+}
+
+.photo_objectif:hover .overlay {
+  top: 0px;
+    left: 0;
+    visibility: visible;
+    width: 100%;
+    height: 99%;
 }
 
 

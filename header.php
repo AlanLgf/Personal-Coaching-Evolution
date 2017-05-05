@@ -9,11 +9,11 @@
 	<title>Personal Coaching Evolution</title>
 </head>
 <body>
-	
+	<div class="mon-background"></div>
 	<nav class="navbar navbar-dark bg-primary navbar-fixed-top">
 	<div class="container-fluid">
 	  <div class="navbar-header" id="navbarSmall">
-                    <a href="#top" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/logo_pce.png" /></a>
+                    <a href="#top" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/logo_pce-min.png" /></a>
                     <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -56,18 +56,6 @@
 	});
 
 
-		//Fonction permettant le smooth scroll de la navbar vers la balise prédeterminer
-		$(document).ready(function(){
-		  $(".mon_scroll").on('click', function(event) {
-		    if (this.hash !== "") {
-		      event.preventDefault();
-		      var hash = this.hash;
-		      $('html, body').animate({
-		        scrollTop: $(hash).offset().top
-		      }, 800, function(){
-		        window.location.hash = hash;
-		      });
-		    } 
-		  });
-		});
+		
 	</script>
+
