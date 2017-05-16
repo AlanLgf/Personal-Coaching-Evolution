@@ -9,9 +9,9 @@
 	<title>Personal Coaching Evolution</title>
 </head>
 <body>
+
 	<div class="mon-background"></div>
 	<nav class="navbar navbar-dark bg-primary navbar-fixed-top">
-	<div class="container-fluid">
 	  <div class="navbar-header" id="navbarSmall">
                     <a href="#top" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/logo_pce-min.png" /></a>
                     <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
@@ -41,9 +41,8 @@
 			wp_nav_menu( $defaults );
 		?>
       </div>
-		
-	   
-	</div>
+
+
 </nav>
 
 <script type="text/javascript">
@@ -56,6 +55,6 @@
 	});
 
 
-		
+
 	</script>
 

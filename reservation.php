@@ -3,16 +3,16 @@
  * Template Name: Reservation
  */
 get_header();
-?>
-
-<div style="padding-top: 500px;">
-<?php
-echo do_shortcode('	[APCAL] ');
 
 ?>
 
 
 
+<?php 
+
+echo do_shortcode('[webba_booking service="1"]');
+
+?>
 
 
 

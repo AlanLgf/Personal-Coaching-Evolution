@@ -2,17 +2,15 @@
 /**
  * Template Name: Contact
  */
+?>
+<?php
 get_header();
-
-echo do_shortcode('[contact-form-7 id="14" title="Formulaire de contact 1"]');
-
 ?>
 
 
 
-
 <?php
+echo do_shortcode('[webba_booking service="1"]');
 
-get_footer();
 
 ?>
