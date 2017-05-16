@@ -7,7 +7,7 @@ get_header();
 ?>
 
  	<div class="texte_presentation">
-		<h1> Personal Coaching Evolution </h1>
+		<h1 class="titreprincipal"> Personal Coaching Evolution </h1>
 </div>
 
 	<div id="objectifs">
@@ -60,9 +60,9 @@ get_header();
 				
 					<figcaption>
 							<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/coach1.jpg" >
-							<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-						
+							<h2>Tarifs</span></h2>
+							<p class="tarifs">Une séance de 1heure 30 pour une personne = 65 Euros. <br> </p>
+								
 						</figcaption>			
 					</figure>
 				</div>

@@ -168,6 +168,11 @@ footer p{
     border-radius: 6px;
 }
 
+.tarifs {
+  color: white;
+  font-family: Caviar Dreams;
+}
+
 .mon-background{
   background: url('http://www.optionfitness.fr/img/picture5.jpg');
   background-size: cover;
