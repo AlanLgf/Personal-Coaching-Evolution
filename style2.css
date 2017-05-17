@@ -1,9 +1,17 @@
 
 p{
-    font-family: "Arial Narrow";
-    color: white;
+    font-family: "caviar dreams";
+    color: black;
 }
-
+.titre{
+    font-family: "roboto";
+}
+.padding{
+    padding: 100px 0px 0px 0px; 
+}
+.color{
+    color: orange;
+}
 .brightness img{
     filter: brightness(50%);
 }
@@ -14,7 +22,9 @@ p{
 }
 /*Div navbar header*/
 
+.centrer{
 
+}
 .navbar-default {
     background-color: rgba(255, 255, 255, 0.5);
     color: #333;
@@ -58,13 +68,13 @@ p{
 }
 
 .about img{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .espace{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.about p{
+.about {
     text-align: justify;
 }
 .cinq{
@@ -76,10 +86,10 @@ p{
     text-align: center;
 }
 .espace2{
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 hr{
+    border-color: black;
     width: 200px;
 }
 /*Animation Keyframes des SVG*/
