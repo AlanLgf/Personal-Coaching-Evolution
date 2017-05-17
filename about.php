@@ -11,7 +11,7 @@
 get_header();
 
 ?>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal-Coaching-Evolution/style2.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style2.css">
 <div class="texte_presentation color">
 	<h1>Vincent Gardye</h1>
 </div>
@@ -32,9 +32,7 @@ get_header();
  					Personal coaching évolution et une équipe de coachs expérimentés et trier par mes soins pour répondre au mieux aux exigences et aux demandes de nos clients.
 Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeunesse ( basket-tennis-football-course à pied) dans le coaching personnel et en entreprise.
  Diplômée du BP JEPS AGFF et détenteur d'une carte professionnelle (n'07513ED0108) ma motivation première sera votre bien-être et de vous pousser aux objectifs qui sont les vôtres.
- 				Personal coaching évolution et une équipe de coachs expérimentés et trier par mes soins pour répondre au mieux aux exigences et aux demandes de nos clients.
-Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeunesse ( basket-tennis-football-course à pied) dans le coaching personnel et en entreprise.
- Diplômée du BP JEPS AGF
+ 				
  				</p>
 
  			</div>
