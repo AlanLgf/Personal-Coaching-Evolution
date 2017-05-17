@@ -190,11 +190,11 @@ footer p{
   color: #fff;
 }
 
-#objectifs {
+#objectifs, #courseapied, #TRX, #crossfit-crosstraining , #Pilates, #coursenentreprise  {
   background-color: #fff; 
 }
 
-#offres {
+#offres{
   background-color: orange; 
 }
 
@@ -433,4 +433,59 @@ input::-webkit-input-placeholder {
     transform: translate3d(-10%,-25px,0) scale(0.75);
   }
 }
+#exercice h1, #exercice h2{
+  text-align: center;
+}
 
+#exercice h1{
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 2% 0 5% 0; 
+  color: orange;
+  padding: 50px 0;
+
+}
+
+#courseapied h2, #TRX h2, #crossfit-crosstraining h2, #Pilates h2, #coursenentreprise h2{
+  font-size: 28px;
+  color: orange;
+  padding: 50px 0;
+}
+
+
+
+.mataille img{
+  width: 100%;
+  padding: 25px;
+  vertical-align:middle;
+
+}
+
+.mataille{
+  height:500px;
+  line-height:500px;
+  text-align:center;
+  padding-bottom: 50px;
+}
+
+.alignement{
+  text-align: left;
+  height: 500px;
+  padding: 190px 25px;
+}
+
+#exercice{
+  padding-top: 200px;
+}
+
+hr.styleexercice{ 
+  width: 50%;
+  margin: 0 auto;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, orange, #f0f0f0); 
+}
