@@ -87,12 +87,12 @@ nav ul{
   background-color: rgba(255, 255, 255, 1) !important;
   transition: all 500ms linear;
   opacity: 1 !important;
-  height: 8%;
+  height: 85px;
   border-bottom: 2px solid orange;
   }
 
   .navbar-fixed-top.scrolled ul {
-      margin: 1% 10% 0 0 !important;
+      margin: 20px 10% 0 0 !important;
       transition: all 300ms linear;
   }
 
@@ -101,9 +101,9 @@ nav ul{
   }
   
  .navbar-fixed-top.scrolled .nav-logo{
-  width: 4%;
+  width: 75px;
   height: auto;
-  margin: 0% 0 0 10%; 
+  margin: 2.5px 0 0 10%; 
   transition: all 300ms linear;
 }
 .navbar-fixed-top.scrolled a{
@@ -348,7 +348,8 @@ background-color: rgba(100,100,100,0.6);
 .wpcf7-textarea {
   width: 50%;
   resize:none;
-  border: solid 1px orange;
+  border: solid 2px orange;
+   padding: 10px 10px;
 }
 
 .wpcf7 input {
@@ -358,6 +359,7 @@ background-color: rgba(100,100,100,0.6);
   border: solid 2px orange;
   height: 34px;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 .wpcf7-text {
 width: 50%;
