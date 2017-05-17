@@ -327,3 +327,109 @@ figure.effect-oscar:hover figcaption {
 figure.effect-oscar:hover img {
   opacity: 0.8;
 }
+
+#contact{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+
+}
+
+
+.wpcf7 {
+position: relative;
+background-color: rgba(100,100,100,0.6);
+}
+
+.wpcf7-form {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.wpcf7-textarea {
+  width: 50%;
+  resize:none;
+  border: solid 1px orange;
+}
+
+.wpcf7 input {
+  border: none;
+  width: 50%;
+  border-radius: 10px;
+  border: solid 2px orange;
+  height: 34px;
+  margin-bottom: 20px;
+}
+.wpcf7-text {
+width: 50%;
+}
+
+.wpcf7-submit {
+  background: transparent;
+  border: solid 2px orange !important;
+  border-radius: 0 !important;
+  color: #000;
+  width: 10% !important;
+  margin-top: 50px;
+  transition: all 200ms linear;
+  color: #fff;
+
+}
+
+.wpcf7-submit:hover {
+  background: orange;
+  color: #fff;
+  transition: all 200ms linear;
+}
+
+#wpcf7-f4407-p4405-o1 {
+background-color: #333333;
+border: 5px solid #0074A2;
+}
+
+#contact label{
+  color: #f87600;
+  position: absolute;
+}
+
+#contact h1{
+  color: #f87600;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 2% 0 5% 0; 
+}
+
+input:focus::-webkit-input-placeholder {
+    position: relative;
+    transform: translate3d(-60px,-25px,0) scale(0.75);
+    transition: 0.2s linear;
+    display: block;
+    color: orange;
+}
+
+input::-webkit-input-placeholder {
+    transition: all 0.5s linear;
+    top:0px;
+    font-size: 1em;
+    color: inherit;
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+   input:focus::-webkit-input-placeholder {
+    transform: translate3d(-50px,-25px,0) scale(0.75);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+   input:focus::-webkit-input-placeholder {
+    transform: translate3d(-40px,-25px,0) scale(0.75);
+  }
+}
+
+@media (max-width: 769px) {
+   input:focus::-webkit-input-placeholder {
+    transform: translate3d(-10%,-25px,0) scale(0.75);
+  }
+}
+
