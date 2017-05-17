@@ -8,16 +8,10 @@ get_header();
 
 
 
-<?php 
+<?php
 
 echo do_shortcode('[webba_booking service="1"]');
 
 ?>
 
 
-
-<?php
-
-get_footer();
-
-?>

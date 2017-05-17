@@ -187,12 +187,41 @@ footer p{
 
 }
 
+
 .texte_presentation{
   text-align: center;
   padding-top: 40vh;
   margin-bottom: 35vh; 
   font-size: 48px;
   color: #fff;
+}
+
+
+.decouverte{
+    text-align: center;
+    padding-top: 35vh;
+    margin-bottom: 35vh;
+    color: #fff;
+
+}
+
+.titredecouverte{
+    padding-bottom: 20px;
+    font-size: 3em;
+
+
+
+}
+.contentdecouverte{
+    padding-top: 5%;
+
+
+}
+
+.containerdecouverte{
+    background: rgba(0,0,0,0.4);
+    padding: 3% 3% 3% 3%;
+
 }
 
 #objectifs {
