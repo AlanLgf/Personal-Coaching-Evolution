@@ -1,3 +1,5 @@
+
+</div>
 <!-- Footer -->
 <footer class="navbar-default footer">
     <div class="footer-above background-footer-color">

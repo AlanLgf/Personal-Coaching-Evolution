@@ -44,6 +44,9 @@ table {
 /* --------------- Fin du reset CSS -------------------*/
 
 body{
+   margin:0;
+   padding:0;
+   height:100%;
   overflow-x: hidden; 
 }
 
@@ -598,3 +601,17 @@ hr.styleexercice{
   background-image: -ms-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, orange, #f0f0f0); 
 }
+
+#main{
+  position:relative;
+  height: 100%;
+}
+
+.footer2{
+   position:absolute;
+   bottom:0;
+   width:100%;
+    background: black !important;
+}
+
+
