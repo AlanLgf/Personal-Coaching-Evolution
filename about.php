@@ -20,7 +20,8 @@ get_header();
 	<div class="row">
 		<div class="center">
 			<div class="col-md-4 col-sm-3 col-xs-12 espace">
- 				<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="350"></a>	
+ 				<a href="#" class="vincent"><img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/vincent.jpg" height="400px" width="300px"/>
+				</a>
 			</div>
 			<div class="col-md-8 col-sm-6 col-xs-12 about espace2 ">
 				<div class="espace">
@@ -32,7 +33,7 @@ get_header();
  					Personal coaching évolution et une équipe de coachs expérimentés et trier par mes soins pour répondre au mieux aux exigences et aux demandes de nos clients.
 Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeunesse ( basket-tennis-football-course à pied) dans le coaching personnel et en entreprise.
  Diplômée du BP JEPS AGFF et détenteur d'une carte professionnelle (n'07513ED0108) ma motivation première sera votre bien-être et de vous pousser aux objectifs qui sont les vôtres.
- 				
+
  				</p>
 
  			</div>
@@ -41,33 +42,6 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 </div>
 </section>
 
-<section class="cinq">
-<div class="container">
-	<div class="row">
-		<hr>
-			<p class="black espace titre"><strong>Voici différents exemples de cours que j'ai déjà fait pratiquer à mes clients !</strong></p>
-		<div class="center about">
-			<div class="col-md-4 col-sm-6 col-xs-12">
- 				<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="250"></a>	
-			</div>
-			<div class=" col-md-4 col-sm-6 col-xs-12">
- 				<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="250"></a>	
-			</div>
-			<div class=" col-md-4 col-sm-6 col-xs-12">
- 				<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="250"></a>	
- 			</div>
- 			<div class="col-md-12 col-md-offset-2">
- 				<div class="col-md-4 col-sm-6 col-xs-12">
- 					<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="250"></a>	
- 				</div>
- 				<div class="col-md-4 col-sm-12 col-xs-12">
- 					<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="250"></a>	
- 				</div>
- 			</div>
-		</div>
- 	</div>
-</div>
-</section>
 
 
 

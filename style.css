@@ -35,7 +35,6 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
   content: none; }
 
 table {
@@ -187,6 +186,24 @@ footer p{
 
 }
 
+.vincent{
+}
+
+.mon-background2{
+    background: url('img/decouvre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+    filter: brightness(60%);
+
+}
+
+
 
 .texte_presentation{
   text-align: center;
@@ -197,10 +214,10 @@ footer p{
 }
 
 
+
 .decouverte{
     text-align: center;
     padding-top: 35vh;
-    margin-bottom: 35vh;
     color: #fff;
 
 }
@@ -221,14 +238,18 @@ footer p{
 .containerdecouverte{
     background: rgba(0,0,0,0.4);
     padding: 3% 3% 3% 3%;
+    margin-bottom: 10vh;
+
+
 
 }
 
-#objectifs {
-  background-color: #fff; 
+
+#objectifs, #courseapied, #TRX, #crossfit-crosstraining , #Pilates, #coursenentreprise  {
+  background-color: #fff;
 }
 
-#offres {
+#offres{
   background-color: orange; 
 }
 
@@ -253,7 +274,6 @@ footer p{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
-  display:none;
   float:left;
   overflow:hidden;
   width: 100%;
@@ -264,8 +284,8 @@ footer p{
 
 .photo_objectif img {
     width:100%;
-    height: 100%;
     position: relative;
+    height:330px;
     top:0;  
   }
 
@@ -387,7 +407,6 @@ background-color: rgba(100,100,100,0.6);
 }
 
 .wpcf7 input {
-  border: none;
   width: 50%;
   border-radius: 10px;
   border: solid 2px orange;
@@ -403,7 +422,6 @@ width: 50%;
   background: transparent;
   border: solid 2px orange !important;
   border-radius: 0 !important;
-  color: #000;
   width: 10% !important;
   margin-top: 50px;
   transition: all 200ms linear;
@@ -445,7 +463,7 @@ input:focus::-webkit-input-placeholder {
 
 input::-webkit-input-placeholder {
     transition: all 0.5s linear;
-    top:0px;
+    top:0;
     font-size: 1em;
     color: inherit;
 }
@@ -467,4 +485,58 @@ input::-webkit-input-placeholder {
     transform: translate3d(-10%,-25px,0) scale(0.75);
   }
 }
+#exercice h1, #exercice h2{
+  text-align: center;
+}
 
+#exercice h1{
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  color: orange;
+  padding: 50px 0;
+
+}
+
+#courseapied h2, #TRX h2, #crossfit-crosstraining h2, #Pilates h2, #coursenentreprise h2{
+  font-size: 28px;
+  color: orange;
+  padding: 50px 0;
+}
+
+
+
+.mataille img{
+  width: 100%;
+  padding: 25px;
+  vertical-align:middle;
+
+}
+
+.mataille{
+  height:500px;
+  line-height:500px;
+  text-align:center;
+  padding-bottom: 50px;
+}
+
+.alignement{
+  text-align: left;
+  height: 500px;
+  padding: 190px 25px;
+}
+
+#exercice{
+  padding-top: 200px;
+}
+
+hr.styleexercice{ 
+  width: 50%;
+  margin: 0 auto;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, orange, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, orange, #f0f0f0); 
+}
