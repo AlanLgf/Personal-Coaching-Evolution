@@ -190,7 +190,67 @@ footer p{
 }
 
 .mon-background2{
-    background: url('img/decouvre.jpg');
+    background: url('img/poid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+    filter: brightness(60%);
+
+}
+
+
+.mon-background3{
+    background: url('img/poid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+    filter: brightness(60%);
+
+}
+
+
+.mon-background4{
+    background: url('img/poid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+    filter: brightness(60%);
+
+}
+
+
+.mon-background5{
+    background: url('img/poid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+    filter: brightness(60%);
+
+}
+
+
+.mon-background6{
+    background: url('img/poid.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;

@@ -53,28 +53,31 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/masse.jpg"/>
-						<h2 class="overlay "> Prise de masse</h2>
+					<a href="<?php echo get_site_url();?>/index.php/prise-de-masse"> <h2 class="overlay ">Prise de masse</h2> </a>
+
 					</div>	
 				</div>	
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/seniors.jpg"/>
-						<h2 class="overlay "> Cours special seniors</h2>
+				<a href="<?php echo get_site_url();?>/index.php/cours-special-seniors"> <h2 class="overlay "> Course spécial séniors</h2> </a>
+
 					</div>	
 				</div>	
 
 				<div class="col-md-2 col-sm-2 col-xs-2"></div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-										<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/decouvre.jpg"/>
-						<h2 class="overlay ">Seance decouverte</h2>
+					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/decouvre.jpg"/>
+					<a href="<?php echo get_site_url();?>/index.php/seance-decouverte"> <h2 class="overlay "> Séance découverte</h2> </a>
+
 					</div>	
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/dos.jpg"/>
+												<a href="<?php echo get_site_url();?>/index.php/special-mal-de-dos"> <h2 class="overlay ">Spécial mal de dos </h2> </a>
 
-						<h2 class="overlay "> Special mal de dos</h2>
 					</div>	
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-2"></div>
@@ -85,7 +88,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 	<div id="offres">
 	 	<div class="container">
 			<div class="row">
-				<h2 class="center">Découvrez nos offres</h2>
+				<h2 class="center">Découvrez nos tarifs</h2>
 				<div class=" col-md-6 col-sm-6 col-xs-12 center grid">
 					<figure class="effect-oscar">
 				
