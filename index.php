@@ -45,7 +45,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 				<h2 class="center">Objectifs</h2>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/poid.jpg"/>
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/poid2.jpg"/>
 						<a href="<?php echo get_site_url();?>/index.php/perte-de-poid"> <h2 class="overlay "> Perte de poids</h2> </a>
 					</div>
 				</div>
@@ -85,21 +85,10 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 	</div>
 
 	<div id="tarif">
-	 	<div class="container" style="padding: 100px 0;">
+	 	<div class="container-fluid" style="padding: 100px 0;">
 			<div class="row">
-<<<<<<< HEAD
-				<h2 class="center">Découvrez nos tarifs</h2>
-				<div class=" col-md-6 col-sm-6 col-xs-12 center grid">
-					<figure class="effect-oscar">
-				
-					<figcaption>
-							<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/coach1.jpg" >
-							<h2>Tarifs</span></h2>
-							<p class="tarifs">Une séance de 1heure 30 pour une personne = 65 Euros. <br> </p>
-								
-						</figcaption>			
-					</figure>
-=======
+				<div class="col-md-2"></div>
+				<div class=" col-md-8 col-sm-8 col-xs-12 center grid">
 				<h2 class="center mesh2">Découvrez nos offres</h2>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
 					<h3 class="h3tarif">Prix à la scéance</h3>
@@ -110,7 +99,6 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 					<h3  class="h3tarif">Scéance découverte</h3>
 					<p class="prix">30 €</p>
 					<p class="annotation" style="opacity: 0;">P</p>
->>>>>>> 6a1849608776f208d6471aa2d2ceeade182c60be
 				</div>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
 				<h3  class="h3tarif">Scéance en groupe</h3>
@@ -119,6 +107,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 					
 				</div>
 			</div>
+				<div class="col-md-2"></div>
 		</div>
 	</div>
 	</div>

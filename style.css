@@ -639,15 +639,18 @@ hr.styleexercice{
 .mesborder{
   border-left:solid  2px  orange;
   border-right:solid  2px  orange;
+
 }
 
 #tarif{
-background: url(img/run.jpg) fixed;
-background-size: cover;
+    background-size: cover;
+    background: url(img/run.jpg) fixed;
+
 }
 
 .mesh2{
-  color: white;
-  font-size: 32px;
-  margin-bottom: 75px;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 75px;
 }
+
