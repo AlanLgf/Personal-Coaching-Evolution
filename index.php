@@ -84,7 +84,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 	<div id="tarif">
 	 	<div class="container" style="padding: 100px 0;">
 			<div class="row">
-<<<<<<< HEAD
+
 				<h2 class="center">Découvrez nos offres</h2>
 				<div class=" col-md-6 col-sm-6 col-xs-12 center grid">
 					<figure class="effect-oscar">
@@ -96,7 +96,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 								
 						</figcaption>			
 					</figure>
-=======
+
 				<h2 class="center mesh2">Découvrez nos offres</h2>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
 					<h3 class="h3tarif">Prix à la scéance</h3>
@@ -107,7 +107,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 					<h3  class="h3tarif">Scéance découverte</h3>
 					<p class="prix">30 €</p>
 					<p class="annotation" style="opacity: 0;">P</p>
->>>>>>> master
+
 				</div>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
 				<h3  class="h3tarif">Scéance en groupe</h3>
