@@ -5,20 +5,20 @@
 get_header();
 
 ?>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal-Coaching-Evolution/style2.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style3.css">
 
  	<div class="texte_presentation">
 		<h1 class="titreprincipal"> Personal Coaching Evolution </h1>
 	</div>
 
-<section class="about" style="padding-top: 250px">
+<section class="about">
 <div class="container">
 	<div class="row">
 		<div class="center">
 			<div class="col-md-4 col-sm-3 col-xs-12 espace">
  				<a href="#" class=""><img src="https://s-media-cache-ak0.pinimg.com/736x/d4/7f/d9/d47fd9debb60c6c1956a6ca1d51f759b.jpg" alt="twitter" width="250" height="350"></a>	
 			</div>
-			<div class="col-md-8 col-sm-6 col-xs-12 about espace2 ">
+			<div class="col-md-7 col-sm-6 col-xs-12 about espace2 ">
 				<div class="espace">
 					<hr>
 				<p class="black center titre"><strong>Qu'est-ce que Personal Coaching Evolution ?!</strong></p>
@@ -28,9 +28,6 @@ get_header();
  					Personal coaching évolution et une équipe de coachs expérimentés et trier par mes soins pour répondre au mieux aux exigences et aux demandes de nos clients.
 Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeunesse ( basket-tennis-football-course à pied) dans le coaching personnel et en entreprise.
  Diplômée du BP JEPS AGFF et détenteur d'une carte professionnelle (n'07513ED0108) ma motivation première sera votre bien-être et de vous pousser aux objectifs qui sont les vôtres.
- 				Personal coaching évolution et une équipe de coachs expérimentés et trier par mes soins pour répondre au mieux aux exigences et aux demandes de nos clients.
-Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeunesse ( basket-tennis-football-course à pied) dans le coaching personnel et en entreprise.
- Diplômée du BP JEPS AGF
  				</p>
 
  			</div>

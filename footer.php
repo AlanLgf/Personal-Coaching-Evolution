@@ -14,8 +14,8 @@
                             </li>
                             <li class="text navbar-right">
                                 Nos réseaux sociaux
-                                <p class="margintop"><a href="#" class="brightness"><img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/fb_logo.png" alt="facebook" width="50" height="50"></a>
-                                <a href="#" class="brightness"><img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/Twitterbird.png" alt="twitter" width="50" height="50"></a></p>
+                                <p class="margintop"><a href="#" class="brightness"><img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal-Coaching-Evolution/img/fb_logo.png" alt="facebook" width="50" height="50"></a>
+                                <a href="#" class="brightness"><img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal-Coaching-Evolution/img/Twitterbird.png" alt="twitter" width="50" height="50"></a></p>
                             </li>
                             <li class="text navbar-left">
                                 About us !
