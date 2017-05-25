@@ -188,6 +188,21 @@ footer p{
   filter: brightness(60%);
 
 }
+.courseapied{
+
+    background: url('http://www.optionfitness.fr/img/picture5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+    filter: brightness(60%);
+
+
+}
 
 .vincent{
 }
@@ -306,14 +321,119 @@ footer p{
 
 
 }
+/* EXERCICES */
 
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 50%;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+.container section {
+    width: 100%;
+    height: 800px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
 
-#objectifs, #courseapied, #TRX, #crossfit-crosstraining , #Pilates, #coursenentreprise  {
-  background-color: #fff;
+.container section:nth-child(1) .image {
+    background-image: url("img/cap.jpg");
+
+}
+
+.container section:nth-child(2) .image {
+    background-image: url("img/pilates-fitness.jpg");
+}
+.container section:nth-child(3) .image {
+    background-image: url("img/trx.jpg");
+}
+.container section:nth-child(4) .image {
+    background-image: url("img/Coursenentreprise.png");
+}
+.container section:nth-child(5) .image {
+    background-image: url("img/crossfit.jpg");
+}
+
+.container section .image {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+    opacity: 0.4;
+}
+.container section .stuff {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    color: #e67e22;
+    margin: 0 auto;
+    font-size: 26px;
+    position: relative;
+}
+.container section .stuff h2 {
+    margin: 0px;
+    color: #ffffff;
+}
+.container section .stuff:before, .container section .stuff:after {
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #d35400;
+    content: "";
+    margin: 30px 0;
+}
+
+.container section .stuff p{
+    color: #ffffff;
+    font-size: 0.8em;
+    font-family: CaviarDreams;
+    text-decoration: justify;
+}
+
+.content p{
+    color: #ffffff;
 }
 
 #offres{
-  background-color: orange; 
+  background-color: #fff; 
 }
 
 #offres img{

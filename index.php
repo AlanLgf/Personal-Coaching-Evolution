@@ -5,13 +5,13 @@
 get_header();
 
 ?>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style2.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal-Coaching-Evolution/style2.css">
 
  	<div class="texte_presentation">
 		<h1 class="titreprincipal"> Personal Coaching Evolution </h1>
-</div>
+	</div>
 
-<section class="about">
+<section class="about" style="padding-top: 250px">
 <div class="container">
 	<div class="row">
 		<div class="center">
@@ -53,30 +53,26 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 					<div class="photo_objectif">
 					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/masse.jpg"/>
 					<a href="<?php echo get_site_url();?>/index.php/prise-de-masse"> <h2 class="overlay ">Prise de masse</h2> </a>
-
-					</div>	
+					</div>
 				</div>	
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/seniors.jpg"/>
 				<a href="<?php echo get_site_url();?>/index.php/cours-special-seniors"> <h2 class="overlay "> Course spécial séniors</h2> </a>
-
-					</div>	
-				</div>	
+					</div>
+				</div>
 
 				<div class="col-md-2 col-sm-2 col-xs-2"></div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/decouvre.jpg"/>
 					<a href="<?php echo get_site_url();?>/index.php/seance-decouverte"> <h2 class="overlay "> Séance découverte</h2> </a>
-
-					</div>	
+					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/dos.jpg"/>
 												<a href="<?php echo get_site_url();?>/index.php/special-mal-de-dos"> <h2 class="overlay ">Spécial mal de dos </h2> </a>
-
 					</div>	
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-2"></div>
@@ -88,8 +84,12 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 	 	<div class="container-fluid" style="padding: 100px 0;">
 			<div class="row">
 				<div class="col-md-2"></div>
-				<div class=" col-md-8 col-sm-8 col-xs-12 center grid">
-				<h2 class="center mesh2">Découvrez nos offres</h2>
+
+				<div class=" col-md-8 col-sm-6 col-xs-12 center grid">
+
+				
+
+					<h2 class="center mesh2">Découvrez nos offres</h2>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
 					<h3 class="h3tarif">Prix à la scéance</h3>
 					<p class="prix">70 €</p>
@@ -99,6 +99,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 					<h3  class="h3tarif">Scéance découverte</h3>
 					<p class="prix">30 €</p>
 					<p class="annotation" style="opacity: 0;">P</p>
+
 				</div>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
 				<h3  class="h3tarif">Scéance en groupe</h3>
@@ -108,7 +109,6 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 				</div>
 			</div>
 				<div class="col-md-2"></div>
-		</div>
 	</div>
 	</div>
 

@@ -64,12 +64,11 @@ p{
 }
 
 .about{
-    background: orange;
-}
-
-.aboutme{
+    background: #fff;
+    height: 350px;
 
 }
+
 
 .about img{
     margin-bottom: 100px;
