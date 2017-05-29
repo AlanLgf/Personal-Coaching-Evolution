@@ -6,7 +6,6 @@ get_header();
 
 ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style5.css">
-
  	<div class="texte_presentation">
 		<h1 class="titreprincipal"> Personal Coaching Evolution </h1>
 	</div>
