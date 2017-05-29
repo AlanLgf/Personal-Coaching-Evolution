@@ -286,7 +286,7 @@ footer p{
 .texte_presentation{
   text-align: center;
   padding-top: 40vh;
-  margin-bottom: 35vh; 
+  margin-bottom: 50vh; 
   font-size: 48px;
   color: #fff;
 }
@@ -442,7 +442,7 @@ footer p{
   margin: 0 0 10% 0;
 }
 #objectifs{
-  background: #f1f1f1;
+  background: #fff;
 }
 #objectifs h2{
   color: orange;
@@ -740,18 +740,67 @@ hr.styleexercice{
 .h3tarif{
   font-size: 24px;
   color: white;
+  background: #595ca1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
 }
 
+.h3tarif2{
+  font-size: 24px;
+  color: white;
+  background: #b464a3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+
+.h3tarif3{
+  font-size: 24px;
+  color: white;
+  background: #7bc5c6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
 
 .prix{
-  padding-top: 40px; 
-  padding-bottom: 40px; 
-  font-size: 60px;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  font-size: 40px;
   color: white;
   font-weight: bold;
+  background: #404040;
 }
 
+.prix2{
+  padding-top: 20px; 
+  padding-bottom: 70px; 
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  background: #404040;
+}
 
+.prix3{
+  padding-top: 20px; 
+  padding-bottom: 35px; 
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  background: #404040;
+}
+
+.prix4{
+padding-bottom: 20px; 
+  color: white;
+  font-weight: bold;
+  background: #404040;
+}
+
+.about{
+  background: #f1f1f1;
+}
 
 .annotation{
   color: rgba(200,200,200,0.8);
@@ -765,14 +814,17 @@ hr.styleexercice{
 }
 
 #tarif{
-    background-size: cover;
-    background: url(img/run.jpg) fixed;
+   background: #f1f1f1;
 
 }
 
 .mesh2{
     font-size: 32px;
-    color: white;
+    color: black;
     margin-bottom: 75px;
 }
 
+p {
+  color: black;
+   font-family: "Roboto"!important;
+}

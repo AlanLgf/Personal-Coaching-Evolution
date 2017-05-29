@@ -13,7 +13,7 @@
 	<div class="mon-background"></div>
 	<nav class="navbar navbar-dark bg-primary navbar-fixed-top">
 	  <div class="navbar-header" id="navbarSmall">
-                    <a href="#top" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/logo_pce-min.png" /></a>
+                    <a href="</index.php>" data-target="home"><img class="nav-logo" src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/logo_pce-min.png" /></a>
                     <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -34,7 +34,7 @@
 			'after' => '',
 			'link_before' => '',
 			'link_after' => '',
-			'items_wrap' => '<ul class="nav navbar-nav navbar-right">%3$s</ul>',
+			'items_wrap' => '<ul class="nav navbar-nav navbar-right btn3">%3$s</ul>',
 			'depth' => '',
 			'walker' => ''
 			);

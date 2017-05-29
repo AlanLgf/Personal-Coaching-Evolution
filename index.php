@@ -5,7 +5,7 @@
 get_header();
 
 ?>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style3.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style5.css">
 
  	<div class="texte_presentation">
 		<h1 class="titreprincipal"> Personal Coaching Evolution </h1>
@@ -81,27 +81,23 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 	 	<div class="container-fluid" style="padding: 100px 0;">
 			<div class="row">
 				<div class="col-md-2"></div>
-
 				<div class=" col-md-8 col-sm-6 col-xs-12 center grid">
-
-				
-
 					<h2 class="center mesh2">Découvrez nos offres</h2>
-				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
-					<h3 class="h3tarif">Prix à la scéance</h3>
-					<p class="prix">70 €</p>
-					<p class="annotation">*Prix modulable en fonction du nombre de reservation</p>
-				</div>
-				<div class=" col-md-4 col-sm-4 col-xs-12 center grid mesborder">
-					<h3  class="h3tarif">Scéance découverte</h3>
-					<p class="prix">30 €</p>
+					<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
+					<h3  class="h3tarif2">Scéance découverte</h3>
+					<p class="prix2">30 €</p>
 					<p class="annotation" style="opacity: 0;">P</p>
 
 				</div>
+				<div class=" col-md-4 col-sm-4 col-xs-12 center grid ">
+					<h3 class="h3tarif">Prix à la scéance</h3>
+					<p class="prix">70 € </p>
+					<p class="prix4">*Prix modulable en fonction du nombre de reservation</p>
+				</div>
 				<div class=" col-md-4 col-sm-4 col-xs-12 center grid">
-				<h3  class="h3tarif">Scéance en groupe</h3>
-					<p class="prix">5 € / pers</p>
-					<p class="annotation">En plus du prix de base</p>
+				<h3  class="h3tarif3">Scéance en groupe</h3>
+					<p class="prix3">5 € / pers</p>
+					<p class="prix4">En plus du prix de base</p>
 					
 				</div>
 			</div>
