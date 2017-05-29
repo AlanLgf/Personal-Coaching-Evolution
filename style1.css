@@ -323,6 +323,8 @@ footer p{
 }
 /* EXERCICES */
 
+
+
 .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -411,6 +413,7 @@ footer p{
 .container section .stuff h2 {
     margin: 0px;
     color: #ffffff;
+    background: black;
 }
 .container section .stuff:before, .container section .stuff:after {
     width: 100%;
@@ -424,6 +427,9 @@ footer p{
 .container section .stuff p{
     color: #ffffff;
     font-size: 0.8em;
+    text-align: justify;
+    background: black;
+    padding: 50px;
     font-family: CaviarDreams;
     text-decoration: justify;
 }
