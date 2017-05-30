@@ -581,6 +581,7 @@ figure.effect-oscar:hover img {
 
 
 .wpcf7 {
+   font-family: "Roboto"!important;
 position: relative;
 background-color: rgba(100,100,100,0.6);
 }
@@ -591,7 +592,7 @@ background-color: rgba(100,100,100,0.6);
   margin-top: 25px;
 }
 .wpcf7-textarea {
-  width: 50%;
+  width: 55%;
   resize:none;
   border: solid 2px orange;
    padding: 10px 10px;
