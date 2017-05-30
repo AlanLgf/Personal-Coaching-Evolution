@@ -62,7 +62,7 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
 					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/decouverte.jpg"/>
-					<a href="<?php echo get_site_url();?>/index.php/seance-decouverte"> <h2 class="overlay "> Séance découverte</h2> </a>
+					<a href="<?php echo get_site_url();?>/index.php/seance-decouverte"> <h2 class="overlay"> Séance découverte</h2> </a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
