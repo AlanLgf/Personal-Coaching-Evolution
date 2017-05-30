@@ -835,3 +835,8 @@ p {
   color: black;
    font-family: "Roboto"!important;
 }
+
+
+.contentdecouverte p{
+  color: white !important;
+}
