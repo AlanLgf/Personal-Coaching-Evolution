@@ -204,84 +204,6 @@ footer p{
 
 }
 
-.vincent{
-}
-
-.mon-background2{
-    background: url('img/poid.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -100;
-    filter: brightness(60%);
-
-}
-
-
-.mon-background3{
-    background: url('img/poid.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -100;
-    filter: brightness(60%);
-
-}
-
-
-.mon-background4{
-    background: url('img/poid.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -100;
-    filter: brightness(60%);
-
-}
-
-
-.mon-background5{
-    background: url('img/poid.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -100;
-    filter: brightness(60%);
-
-}
-
-
-.mon-background6{
-    background: url('img/poid.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -100;
-    filter: brightness(60%);
-
-}
-
-
 
 .texte_presentation{
   text-align: center;
@@ -484,9 +406,9 @@ footer p{
 .photo_objectif .overlay {
   position: absolute;
   left: 0%;
-  top:-20px;
+  top:-10%;
   width: 0%;
-  height: 100%;
+  height: 104%;
   background-color: rgba(19, 19, 19, 0.6);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease-in;
@@ -504,12 +426,13 @@ footer p{
 }
 
 .photo_objectif:hover .overlay {
-  top: -20px;
+  top: -10%;
     left: 0;
     visibility: visible;
     width: 100%;
-    height: 100%;
+    height: 104%;
 }
+
 
 
 

@@ -41,19 +41,19 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 				<h2 class="center">Objectifs</h2>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/poid2.jpg"/>
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/poids.jpg"/>
 						<a href="<?php echo get_site_url();?>/index.php/perte-de-poid"> <h2 class="overlay "> Perte de poids</h2> </a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/masse.jpg"/>
+					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/prise_masse.jpg"/>
 					<a href="<?php echo get_site_url();?>/index.php/prise-de-masse"> <h2 class="overlay ">Prise de masse</h2> </a>
 					</div>
 				</div>	
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/seniors.jpg"/>
+					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/cours_seniors.jpg"/>
 				<a href="<?php echo get_site_url();?>/index.php/cours-special-seniors"> <h2 class="overlay "> Course spécial séniors</h2> </a>
 					</div>
 				</div>
@@ -61,14 +61,14 @@ Fort d'une riche expérience dans une multitude de sport pratiqué depuis ma jeu
 				<div class="col-md-2 col-sm-2 col-xs-2"></div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/decouvre.jpg"/>
+					<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/decouverte.jpg"/>
 					<a href="<?php echo get_site_url();?>/index.php/seance-decouverte"> <h2 class="overlay "> Séance découverte</h2> </a>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="photo_objectif">
-						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/dos.jpg"/>
-												<a href="<?php echo get_site_url();?>/index.php/special-mal-de-dos"> <h2 class="overlay ">Spécial mal de dos </h2> </a>
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/img/maldedos.jpg"/>
+						<a href="<?php echo get_site_url();?>/index.php/special-mal-de-dos"> <h2 class="overlay ">Spécial mal de dos </h2> </a>
 					</div>	
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-2"></div>
