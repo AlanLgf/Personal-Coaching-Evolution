@@ -585,10 +585,15 @@ background-color: rgba(100,100,100,0.6);
 }
 
 .wpcf7-form {
-  
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
 }
 .wpcf7-textarea {
-  
+  width: 50%;
+  resize:none;
+  border: solid 2px orange;
+   padding: 10px 10px;
 }
 
 .wpcf7 input {
@@ -600,7 +605,7 @@ background-color: rgba(100,100,100,0.6);
   padding-left: 10px;
 }
 .wpcf7-text {
-
+width: 50%;
 }
 
 .wpcf7-submit {
@@ -621,11 +626,13 @@ background-color: rgba(100,100,100,0.6);
 }
 
 #wpcf7-f4407-p4405-o1 {
-
+background-color: #333333;
+border: 5px solid #0074A2;
 }
 
 #contact label{
-  
+  color: #f87600;
+  position: absolute;
 }
 
 #contact h1{

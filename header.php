@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style1.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/Personal Coaching Evolution/style5.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
